@@ -4,7 +4,7 @@ function everyOtherVector = everyOther(x)
 
 % check it's not a matrix first
 if all(size(x)>1)
-    error("Must be a horizontal or vertical array to perform sum operation")
+    error("Arrays must be horizontal or vertical")
 end
 
 everyOtherIdx=1:2:max(size(x)); %first extract every other index

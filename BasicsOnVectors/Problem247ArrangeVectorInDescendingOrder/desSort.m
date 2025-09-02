@@ -3,7 +3,7 @@ function y = desSort(x)
 
 % check it's not a matrix first
 if all(size(x)>1)
-    error("Must be a horizontal or vertical array to perform sum operation")
+    error("Must be a horizontal or vertical array to perform sort operation")
 end
 
 % determine if its a row or column vector
